@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Culinary Delight | Food Lover 🍔</title>
+    <link rel="stylesheet" href="fit CSS/fit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <a href="" class="logo"><ion-icon name="restaurant-outline"></ion-icon></a>
+        <div class="search" onclick="toggleSearch();">
+            <input type="text" placeholder="SEARCH">
+            <ion-icon name="search-outline"></ion-icon>
+        </div>
+        <div class="bar">
+            <nav>
+                <ul class="nav">
+                    <li><a href="#" class="active">Breakfast</a></li>
+                    <li><a href="#">Lunch</a></li>
+                    <li><a href="#">Dinner</a></li>
+                </ul>
+            </nav>
+            <div class="check-out">
+                <ion-icon name="bag-outline"></ion-icon>
+                <span class="number">1</span>
+            </div>
+            <div class="menu">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+        </div>
+        <ul class="nav-mobile">
+            <li><a href="#" class="active">Breakfast</a></li>
+            <li><a href="#">Lunch</a></li>
+            <li><a href="#">Dinner</a></li>
+        </ul>
+    </header>
+    <div class="banner active">
+        <div class="content">
+            <h1>Food <ion-icon name="heart-half-outline"></ion-icon></h1>
+            <h2>Lovers </h2>
+        </div>
+        <div class="imgBox">
+            <div class="food">
+                <img src="images/food-3.jpeg" alt="" class="food-img">
+            </div>
+            <div class="description">
+                <h2>Pan-Seared Sea Bass with Green Bean Purée</h2>
+                <p>This dish showcases a piece of pan-seared fish with crispy skin, possibly salmon or sea bass.
+                    It is served with a sauce, likely citrus-based, given the presence of a citrus slice on top.
+                    Garnished with edible flowers and some fresh herbs.
+                </p>
+                <ul class="download">
+                    <li><img src="./images/apple.png" alt="App Store"></li>
+                    <li><img src="./images/google.png" alt="Google Play"></li>
+                </ul>
+                <span class="price">$39.99</span>
+            </div>
+        </div>
+        <!--MAin btn-->
+        <a href="#" class="btn" onclick="toggleFlip();">
+            Learn More <ion-icon name="search-circle-outline"></ion-icon>
+        </a>
+        <!--Order Button-->
+        <span class="order-btn active"><ion-icon name="bag-add-outline"></ion-icon></span>
+        <div class="selections">
+            <div class="circle">
+                <div class="options one" onclick="changeImg('food-1.jpeg');">
+                    <img src="./images/food-1.jpeg" alt="food-1" srcset="">
+                </div>
+                <div class="options two" onclick="changeImg('food-2.jpeg');">
+                    <img src="./images/food-2.jpeg" alt="food-2" srcset="">
+                </div>
+                <div class="options three" onclick="changeImg('food-3.jpeg');">
+                    <img src="./images/food-3.jpeg" alt="food-3" srcset="">
+                </div>
+            </div>
+            <h1>Healthy Life</h1>
+        </div>
+    </div>
+    <!-- Social Icons -->
+    <ul class="sci">
+        <li><ion-icon name="logo-facebook"></ion-icon></li>
+        <li><ion-icon name="logo-twitter"></ion-icon></li>
+        <li><ion-icon name="logo-instagram"></ion-icon></li>
+    </ul>
+    <!-- Footer Sction -->
+    <footer>
+        <div class="copy">
+            &copy; Copyright <strong><span><i>Culinary Delight</i></span></strong>. All rights
+            reserved.
+        </div>
+    </footer>
+    <!-- First Image (file-9ozu024fCvu5g2EuxbwKeDzt):
+
+This dish appears to be a piece of grilled or pan-seared fish, possibly sea bass or halibut.
+It is accompanied by a creamy green sauce, likely a pea puree or avocado-based sauce.
+There are some green beans and cherry tomatoes, as well as a dollop of another creamy component on top of the fish, possibly a flavored butter or aioli.
+Garnished with microgreens and a few olives.
+Second Image (file-BYHRkgeMjahQewdsA7NkE8IT):
+
+This dish features slices of rare or medium-rare steak, likely beef tenderloin or filet mignon.
+It is served on a bed of asparagus spears.
+The dish is garnished with a sprig of rosemary and has a balsamic reduction drizzled on the plate.
+Third Image (file-R9hdBJInmKUYmGPRJTd9FXPn): -->
+    <script src="./fit js/fit.js"></script>
+    <!-- Ion Iscons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
